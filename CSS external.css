@@ -1,0 +1,22 @@
+body{
+    background-color: darkslategrey;
+}
+h1{
+    color: rgb(235, 141, 18);
+}
+#p1{
+    color: #9696e9;
+}
+#p2{
+    color: hsl(0, 38%, 44%);
+}
+#p3{
+    color: yellow;
+}
+.even{
+    font-size: xx-large;
+}
+.odd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}

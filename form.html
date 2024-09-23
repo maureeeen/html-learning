@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <label for="Username"> Username:</label>
+        <input type="text" id="Username"> <br><br>
+
+        <label for="Password"> Password:</label>
+        <input type="password" id="Password" required><br><br>
+
+        <label for="Email"> Email:</label>
+        <input type="email" id="Email" placeholder="janedoe@gmail.com" required> <br><br>
+
+        <label for="Phone number"> Mobile number:</label>
+        <input type="tel" id="phone number" pattern="[+][0-9]{3}[0-9]{9}" placeholder="+254xxxxxxxxx" required> <br><br>
+
+        <label for="DOB">Date of birth</label>
+        <input type="date" id="DOB"><br><br>
+
+        <label for="quantity"> quantity</label>                   
+        <input type="number" id="quantity" min="1" max="99" value="1"><br><br>
+        <label for="Mr">Mr.</label>
+        <input type="radio" id="Mr" value="Mr" name="title">
+        <label for="Miss">Miss.</label>                   
+        <input type="radio" id="Miss" value="Miss" name="title">     <!--this is a radio button-->
+        <label for="phD">phD.</label>
+        <input type="radio" id="phD" value="phD" name="title"><br>
+
+        <label for="level of education"> Highest level of education</label>
+        <select id="Education">
+            <option value="phD">PhD</option>
+            <option value="Master's">Master's</option>          <!--this is a drop down menu-->
+            <option value="Degree">Degree</option>
+            <option value="Tertiary">Tertiary</option>
+            <option value="High school">High school</option>
+            <option value="Primary school">Primary school</option>
+            <option value="none">none</option>
+        </select><br><br>
+        <label for="File">Upload File</label>        
+        <input type="file" id="File" accept="image/png,.pdf,.docx,.doc"><br><br>
+
+        <label for="Comments">Leave us a comment</label>       
+        <textarea id="Comments" rows="3" cols="25"></textarea><br><br>
+
+        <label for="Updates">Click to receive email updates</label>        
+        <input type="checkbox" id="Updates"><br>
+
+        <label for="T&Cs" style="color: red;">Terms & Conditions</label>
+        <input type="checkbox" id="T&Cs" required><br>
+        <input type="reset">
+        <input type="submit">
+
+
+
+    </form>
+</body>
+
+</html>
